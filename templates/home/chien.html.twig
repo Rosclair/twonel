@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}TWONEL - ÉDUQUER SON CHIEN{% endblock %}
+
+{% block body %}
+
+<style> 
+      .button {
+      background-color: #1c87c9;
+      -webkit-border-radius: 60px;
+      border-radius: 60px;
+      border: none;
+      color: #eeeeee;
+      cursor: pointer;
+      display: inline-block;
+      font-family: sans-serif; 
+      font-size: 20px;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      }
+      @keyframes glowing {
+      0% { --bs-bg-opacity: 1; background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); box-shadow: 0 0 5px rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); }
+      50% { background-color: #2c3e50; box-shadow: 0 0 20px #2c3e50; }
+      100% { --bs-bg-opacity: 1; background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); box-shadow: 0 0 5px rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); }
+      }
+      .button {
+      animation: glowing 1300ms infinite;
+      }
+    </style>
+
+        <!-- Masthead-->
+    <header class="masthead text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="/build/img/chien.png" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Dressez Votre Chien en 15 minutes par jour !</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light">
+                Caroline Lange est une éducatrice professionnelle canin habitant la région de Lyon, titulaire du « Brevet Professionnel d’Éducateur Canin. » 
+                Cela fait aujourd’hui quatorze ans qu’elle éduque des chiens de toute race et tout âge.</br>👇Pour en soir plus👇
+            </p>
+
+            <!-- Button -->
+            <p class="mb-0">
+                <a href="https://1tpe.net/go.php?dat=ZHVjbGFpci5uZW9haWQuMw==&tk=" target="_blank" class="button">
+                    Ici elle vous en dis plus...
+                </a>
+            </p>
+
+        </div>
+    </header>
+
+{% endblock %}

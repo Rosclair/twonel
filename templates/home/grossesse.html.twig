@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}TWONEL - Grossesse{% endblock %}
+
+{% block body %}
+
+<style> 
+      .button {
+      background-color: #1c87c9;
+      -webkit-border-radius: 60px;
+      border-radius: 60px;
+      border: none;
+      color: #eeeeee;
+      cursor: pointer;
+      display: inline-block;
+      font-family: sans-serif; 
+      font-size: 20px;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      }
+      @keyframes glowing {
+      0% { --bs-bg-opacity: 1; background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); box-shadow: 0 0 5px rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); }
+      50% { background-color: #2c3e50; box-shadow: 0 0 20px #2c3e50; }
+      100% { --bs-bg-opacity: 1; background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); box-shadow: 0 0 5px rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)); }
+      }
+      .button {
+      animation: glowing 1300ms infinite;
+      }
+    </style>
+
+        <!-- Masthead-->
+    <header class="masthead text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <a href="https://1tpe.net/go.php?dat=ZHVjbGFpci5saXNhb2xpdi4x&tk=" target="_blank"><IMG class="masthead-avatar mb-5" src="/build/img/grossesse-1.jpg" border="0" ></a>
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Le Miracle de la Grossesse</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-baby"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light">Lisa vous donne la méthode Comment Inverser l'infertilité et Tomber Enceinte Naturellement </br>
+            <em style="color:red;">En 60 Jours - Garanti!</em></br> 👇Ici elle vous en dis plus👇</p>
+            <!-- Button -->
+            <a href="https://1tpe.net/go.php?dat=ZHVjbGFpci5saXNhb2xpdi4x&tk=" target="_blank"><IMG class="button" src="/build/img/grossesse-2.jpg" border="0" ></a>
+
+        </div>
+    </header>
+{% endblock %}
